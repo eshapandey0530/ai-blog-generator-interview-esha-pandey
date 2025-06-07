@@ -15,6 +15,7 @@ A Flask-based application that generates AI-powered blog posts with mock SEO res
    cd ai-blog-generator-interview-esha-pandey
 
 2.	**Create and activate a virtual environment**
+    ```bash
     python3 -m venv venv
     source venv/bin/activate     # For Mac/Linux
     OR
