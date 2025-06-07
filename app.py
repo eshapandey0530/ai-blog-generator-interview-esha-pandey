@@ -46,6 +46,10 @@ if __name__ == '__main__':
     # Setup Scheduler
     scheduler = BackgroundScheduler()
     scheduler.add_job(func=generate_and_save_daily_blog, trigger="interval", days=1)
+
+    # generate_and_save_daily_blog() # to trigger daily_file immediately
+    # app.run(debug=True)
+
     scheduler.start()
 
     # Run Flask app
